@@ -5,3 +5,80 @@
     box-sizing: border-box;
     font-family: 'Inter', sans-serif;
 }
+body{
+    padding: 32px;
+}
+
+
+/*LANDING SECTION*/
+
+
+/*LANDING SECTION --> NAVBAR*/
+
+
+nav{
+    max-width: 1280px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 auto;
+    letter-spacing: 0.5px;
+}
+
+.nav__logo--link{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
+    margin-right: 24px;
+    padding-bottom: 4px;
+}
+
+.nav__logo{
+    height: 40px;
+    width: 40px;
+    margin-right: 12px;
+}
+
+h6{
+    font-size: 24px;
+    font-weight: 900;
+    padding-bottom: 4px;
+    color: #243e63;
+}
+
+ul{
+    display: flex;
+}
+
+li{
+    padding-bottom: 4px;
+    list-style-type: none;
+    font-weight: 600;
+}
+
+.nav__link--far{ 
+    margin: 0 24px 0 48px;
+    font-size: 14px;
+    color: #243e63;
+    text-decoration: none;
+}
+
+.nav__links{
+    display: flex;
+}
+
+.nav__link{
+ font-size: 14px;
+ margin: 24px;
+ color: #243e63;
+ text-decoration: none;
+}
+
+.nav__link--styled{
+    border-radius: 9999px;
+    background-color: rgb(100, 21, 255);
+    color: #fff;
+    padding: 12px 32px;
+    font-size: 14px;
+}
