@@ -5,13 +5,154 @@
     box-sizing: border-box;
     font-family: 'Inter', sans-serif;
 }
-body{
+
+.site__padding{
     padding: 32px;
 }
+
+/*.purple{
+    color: rgb(100, 21, 255);
+}*/
 
 
 /*LANDING SECTION*/
 
+header{
+    position: relative;
+}
+
+.row{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    max-width: 1280px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+h1{
+    font-size: 48px;
+    font-weight: 700;
+    color: #1A2021;
+    line-height: 1.25;
+}
+
+.home__description--para{
+    font-size: 18px;
+    margin: 32px 0;
+}
+
+.email__input{
+    position: relative;
+    max-width: 448px;
+    text-align: center;
+    margin: 0 auto;
+}
+
+.email__input input{
+    padding: 20px 192px 20px 32px;
+    border-radius: 9999px;
+    border-width: 2px;
+    width: 100%;
+    font-weight: 500;
+}
+
+.email__input button{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    margin: 8px 0;
+    margin-right: 8px;
+    padding: 16px 0;
+    width: 160px;
+    line-height: 1;
+    font-size: 16px;
+    font-weight: 700;
+    color: rgb(247,250,252);
+    background-color: #6415FF;
+    border-radius: 9999px;
+}
+
+.logo__strip{
+    margin-top: 80px;
+}
+
+.logo__strip p{
+    font-size: 12px;
+    text-transform: uppercase;
+    letter-spacing: 0.9px;
+    font-weight: 700;
+    color: rgba(160, 174, 192, 1);
+}
+
+.logo__strip img{
+    padding-right: 128px;
+    margin-top: 16px;
+    width: 100%;
+    opacity: 0.5;
+}
+
+
+.img__wrapper{
+    position: relative;
+    display: flex;
+
+    flex-direction: column;
+    justify-content: center;
+}
+
+.home__description--desk{
+    max-width: 864px;
+    width: 100%;
+}
+
+
+
+
+
+
+
+/*.landing__containers{
+    max-width: 1280px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+    padding: 96px 0;
+}
+
+.left__column{
+    max-width: 40%;
+}
+
+h1{
+    font-size: 48px;
+    font-weight: 700;
+}
+
+.landing__para{
+    margin: 24px 0;
+    font-size: 18px;
+}
+
+.email__input{
+    position: relative;
+    max-width: 448px;
+    text-align: center;
+}
+input{
+    padding-left: 32px;
+    border-radius: 9999px;
+    border-width: 2px;
+    width: 100%;
+    font-weight: 500;
+}
+
+.workspace{
+    max-width: 100%;
+} */
 
 /*LANDING SECTION --> NAVBAR*/
 
@@ -43,7 +184,6 @@ nav{
 h6{
     font-size: 24px;
     font-weight: 900;
-    padding-bottom: 4px;
     color: #243e63;
 }
 
