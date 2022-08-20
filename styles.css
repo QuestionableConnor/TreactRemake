@@ -443,3 +443,332 @@ li{
     font-size: 14px;
     color: #718096;
 }
+
+
+/*VALUES*/
+
+
+.value__sect{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1280px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 96px 0;
+}
+
+.value__info--wrapper{
+    margin-right: 64px;
+    width: 50%;
+}
+
+.value__info{
+    padding: 32px 0;
+    text-align: left;
+}
+
+.value__title{
+    text-align: left;
+}
+
+.value__subtitle{
+    text-align: left;
+}
+
+.value__para{
+    font-size: 18px;
+    text-align: left;
+    margin-top: 32px;
+    font-weight: 500;
+    line-height: 1.625;
+    color: rgb(124,139,161);
+}
+
+.value__info--features{
+    display: flex;
+    flex-direction: row;
+    max-width: none;
+    margin-left: 0;
+    margin-right: 0;
+}
+
+.value__left--feature{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    margin: 32px 32px 0 0;
+}
+
+.value__left--title--wrapper{
+    display: flex;
+    align-items: center;
+}
+
+.value__left--img--wrapper{
+    max-width: 36px;
+    max-height: 36px;
+    text-align: center;
+    padding: 8px;
+    border-radius: 9999px;
+    border-width: 0px;
+    color: rgb(39,103,73);
+    background-color: rgb(154, 230, 180);
+}
+
+.value__left--title{
+    margin-left: 12px;
+    font-weight: 700;
+    font-size: 20px;
+    color: #243e63;
+}
+
+.value__left--para{
+    margin-top: 16px;
+    color: rgb(113, 128, 150);
+    line-height: 1.625;
+}
+
+.value__info--features:last-child{
+    margin-right: 0px;
+}
+
+.value__right--feature{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    margin-top: 32px;
+}
+
+.value__right--title--wrapper{
+    display: flex;
+    align-items: center;
+}
+
+.value__right--img--wrapper{
+    max-width: 36px;
+    max-height: 36px;
+    text-align: center;
+    padding: 8px;
+    border-radius: 9999px;
+    border-width: 0px;
+    color: rgb(155, 44, 44);
+    background-color: rgb(254, 178, 178);
+}
+
+.value__right--title{
+    margin-left: 12px;
+    font-weight: 700;
+    font-size: 20px;
+    color: #243e63;
+}
+
+.value__button{
+    margin-top: 48px;
+    padding: 12px 32px;
+    font-size: 14px;
+    font-weight: 700;
+    display: inline-block;
+    color: rgb(247,250,252);
+    background-color: rgb(100, 21, 255);
+    border-radius: 9999px;
+}
+
+.value__img--wrapper{
+    width: 50%;
+    flex-shrink: 0;
+    position: relative;
+}
+
+.value__img{
+    border-radius: 4px;
+    max-width: 100%;
+    height: auto;
+}
+
+
+/*PRICING*/
+
+
+.price__sect{
+    padding: 96px 0;
+    max-width: 1280px;
+    margin: 0 auto;
+}
+
+.price__header{
+    margin-top: 40px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.price__para{
+    width: 100%;
+    max-width: 576px;
+    text-align: center;
+    font-size: 18px;
+    font-weight: 500;
+    margin-top: 16px;
+    line-height: 1.625;
+    color: #7c8ba1;
+}
+
+.price__panels{
+    display: flex;
+    justify-content: space-between;
+    align-items: stretch;
+    flex-direction: row;
+    position: relative;
+}
+
+.price__panel{
+    display: flex;
+    flex-direction: column;
+    margin-right: 32px;
+    width: 100%;
+    max-width: 384px;
+    margin-top: 64px;
+    text-align: center;
+    padding: 8px 32px 0 32px;
+    border-radius: 8px;
+    position: relative;
+    color: rgb(26, 32, 44);
+    background-color: rgb(255, 255, 255);
+}
+
+.top__style--green{
+    border-top-left-radius: 8px;
+    border-top-right-radius: 8px;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    right: 0px;
+    height: 8px;
+    background-image: linear-gradient(115deg, rgb(56,178,172) 0%,
+    rgb(129,230,217) 100%);
+}
+
+.top__style--red{
+    border-top-left-radius: 8px;
+    border-top-right-radius: 8px;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    right: 0px;
+    height: 8px;
+    background-image: linear-gradient(115deg, rgb(245,101,101) 0%,
+    rgb(254,178,178) 100%);
+}
+
+.panel__plans{
+    display: flex;
+    flex-direction: column;
+    text-transform: uppercase;
+    line-height: 1.625;
+    padding: 32px 0;
+}
+.panel__plans .name{
+    font-weight: 700;
+    font-size: 20px;
+}
+
+.panel__plans .price{
+    font-size: 48px;
+    font-weight: 700;
+    margin: 4px 0;
+}
+
+.panel__plans .duration{
+    color: rgb(160, 174, 192);
+    font-weight: 700;
+    letter-spacing: 1.6px;
+}
+
+.panel__plans--info{
+    display: flex;
+    flex-direction: column;
+    margin-left: -32px;
+    margin-right: -32px;
+    padding: 32px;
+    border-top-width: 2px;
+    border-bottom-width: 2px;
+}
+
+.feature:first-child{
+    margin-top: 0px;
+}
+
+.plans__info--title{
+    font-size: 20px;
+    font-weight: 700;
+    letter-spacing: 0.4px;
+}
+
+.feature:not(.plans__info--title){
+    color: rgb(113, 128, 150);
+    font-weight: 500;
+}
+
+.feature{
+    margin-top: 20px;
+    font-weight: 700;
+}
+
+.button__wrapper--green, .button__wrapper--red, .button__wrapper--white{
+    padding: 32px 64px;
+}
+
+.price__button{
+    border-radius: 9999px;
+    text-transform: uppercase;
+    letter-spacing: 0.8px;
+    padding: 16px 0;
+    width: 100%;
+    font-size: 14px;
+    font-weight: 700;
+    color: rgb(247,250,252);
+}
+
+.button__green{
+    background-image: linear-gradient(115deg, rgb(56,178,172) 0%,
+    rgb(129,230,217) 100%);
+}
+
+.button__red{
+    background-image: linear-gradient(115deg, rgb(245,101,101) 0%,
+    rgb(254,178,178) 100%);
+}
+
+.button__white{
+    background-color: rgb(247, 250, 252);
+    color: rgb(100, 21, 255);
+}
+
+.price__panel--full .panel__plans--info{
+    border-color: rgb(102,126,234);
+}
+
+.price__panel--full{
+    width: 100%;
+    max-width: 384px;
+    padding: 0 32px;
+    margin-top: 64px;
+    margin-right: 32px;
+    border-radius: 8px;
+    position: relative;
+    padding-top: 8px;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    background-image: linear-gradient(135deg, rgb(76,81,191) 0%, rgb(102,126,234) 100%);
+    background-color: rgb(100, 21, 255);
+    color: rgb(247,250,252);
+}
+
+.panel__plans--full .duration{
+    color: rgb(237, 242, 247);
+}
+
