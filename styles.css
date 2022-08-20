@@ -773,7 +773,6 @@ li{
 }
 
 
-
 /*TESTIMONIALS*/
 
 
@@ -985,4 +984,129 @@ blockquote{
     font-weight: 700;
     border-width: 1px;
     letter-spacing: 0.4px;
+}
+
+
+/*TESTIMONIALS*/
+
+
+.footer__wrapper{
+    padding: 96px 32px 96px 32px;
+    position: relative;
+    background-color: rgb(100, 21, 255);
+    color: rgb(247, 250, 252);
+    margin-left:-32px;
+    margin-bottom: -32px;
+    margin-right: -32px;
+}
+
+.footer__sect{
+    max-width: 1280px;
+    margin: 0 auto;
+    position: relative;
+    z-index: 10;
+}
+
+.footer__columns{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    text-align: left;
+}
+
+.footer__column{
+    width: auto;
+    padding-left: 0px;
+    padding-right: 0px;
+    margin-top: 48px;
+}
+
+.footer__column--title{
+    text-transform: uppercase;
+    font-family: 700;
+    font-size: 16px;
+}
+
+.footer__column--list{
+    display: flex;
+    flex-direction: column;
+    margin-top: 24px;
+    font-size: 14px;
+    font-weight: 500;
+    list-style: none;
+    margin-top: 24px;
+    padding: 0;
+}
+
+.column__list--item{
+    margin-top: 12px;
+}
+
+.column__list--item a{
+    color: #f7fafc;
+    text-decoration: none;
+    border-bottom-width: 2px;
+    border-color: transparent;
+    padding-bottom: 4px;
+}
+
+.footer__line--breaker{
+    margin: 64px 0 64px 0;
+    border-bottom-width: 2px;
+    border-color: rgb(116, 44, 255);
+    width: 100%;
+}
+
+.footer__logos{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: row;
+}
+
+.footer__treact--wrapper{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.footer__logo{
+    width: 32px;
+    max-width: 100%;
+    height: auto;
+}
+
+.footer__treact{
+    margin-left: 8px;
+    font-size: 20px;
+    font-weight: 900;
+    letter-spacing: 0.05em;
+    color: rgb(247, 250, 252);
+}
+
+.footer__para{
+    margin-top: 0px;
+    font-size: 16px;
+    text-align: center;
+    font-weight: 500;
+    color: rgb(203, 213, 224);
+}
+
+.footer__social--wrapper{
+    margin-top: 0px;
+    display: flex;
+}
+
+.social__link{
+    cursor: not-allowed;
+    padding: 4px 8px 4px 8px;
+    border-radius: 9999px;
+    background-color: rgb(247, 250, 252);
+    color: rgb(26, 32, 44);
+    margin-right: 16px;
+}
+
+.social__link svg{
+    width: 16px;
+    height: 16px;
 }
